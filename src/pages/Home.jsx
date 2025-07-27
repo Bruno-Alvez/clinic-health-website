@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero"
 import PaymentBenefits from "../components/PaymentBenefits";
 import PopularTreatmentsSection from "../components/PopularTreatmentsSection";
+import ProfessionalsSection from "../components/ProfessionalsSection";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <PaymentBenefits />
       <AboutSection />
       <DiferenciaisSection />
+      <ProfessionalsSection />
       <section className="h-screen flex items-center justify-center">
         <h1 className="text-4xl font-bold">Welcome to Clínica Health</h1>
       </section>
