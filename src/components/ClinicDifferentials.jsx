@@ -46,6 +46,9 @@ function DiferenciaisSection() {
           className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800"
         >
           Nossos <span className="text-[#F27E7E]">Diferenciais</span>
+          <p className="mt-4 font-normal text-gray-600 text-lg max-w-3xl mx-auto">
+          A Clínica Health oferece tecnologias e metodologias de última geração, as melhores disponíveis no mercado atual.
+          </p>
         </motion.h2>
 
         <div className="flex flex-col space-y-20">
