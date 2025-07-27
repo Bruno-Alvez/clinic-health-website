@@ -1,6 +1,8 @@
 import DividerDesign from "../components/DividerDesign";
 import Header from "../components/Header";
 import Hero from "../components/Hero"
+import PaymentBenefits from "../components/PaymentBenefits";
+import PopularTreatmentsSection from "../components/PopularTreatmentsSection";
 
 function Home() {
   return (
@@ -8,6 +10,8 @@ function Home() {
       <Header />
       <Hero />
       <DividerDesign />
+      <PopularTreatmentsSection />
+      <PaymentBenefits />
       <section className="h-screen flex items-center justify-center">
         <h1 className="text-4xl font-bold">Welcome to Clínica Health</h1>
       </section>
