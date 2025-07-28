@@ -10,21 +10,21 @@ function DiferenciaisSection() {
       title: "Tecnologia de Precisão",
       subtitle: "Aparelho Solon",
       description:
-        "Tratamentos com altíssima performance e segurança, utilizando uma das tecnologias mais modernas da estética médica.",
+        "Tecnologia nacional multifuncional com laser para melasma, acne, rejuvenescimento, rosácea e muito mais",
       image: img1,
-    },
-    {
-      title: "Tratamentos Personalizados",
-      subtitle: "Solução Atria",
-      description:
-        "Protocolos sob medida com foco em resultados reais e duradouros, aliados à experiência de nossos especialistas.",
-      image: img2,
     },
     {
       title: "Excelência Médica",
       subtitle: "Equipe Especializada",
       description:
         "Profissionais altamente capacitados e atualizados com as inovações mais recentes da medicina clínica e estética.",
+      image: img2,
+    },
+    {
+      title: "Tratamentos Personalizados",
+      subtitle: "Solução Atria",
+      description:
+        "Ultrassom micro e macrofocado, ideal para lifting facial e flacidez corporal, com resultados visíveis e duradouros.",
       image: img3,
     },
     {
@@ -47,7 +47,7 @@ function DiferenciaisSection() {
         >
           Nossos <span className="text-[#F27E7E]">Diferenciais</span>
           <p className="mt-4 font-normal text-gray-600 text-lg max-w-3xl mx-auto">
-          A Clínica Health oferece tecnologias e metodologias de última geração, as melhores disponíveis no mercado atual.
+          Nosso maior diferencial é esse cuidado médico completo, com acompanhamento real, sem promessas vazias, e com um olhar técnico e atualizado. A gente une conhecimento, carinho e tecnologia de ponta.
           </p>
         </motion.h2>
 

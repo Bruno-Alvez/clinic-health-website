@@ -21,11 +21,11 @@ function HeroSection() {
           className="text-left"
         >
           <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white">
-            Revealing the <br className="hidden md:block" />
-            <span className="text-[#F27E7E]">Treasures</span> of the Universe
+            Onde Ciência  <br className="hidden md:block" />
+            <span className="text-[#F27E7E]">encontra</span> Beleza & Saúde
           </h1>
           <p className="mt-6 text-base md:text-lg text-white/90 max-w-xl">
-            "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. <strong>It’s about believing in the future</strong> and thinking that the future will be better than the past." – Elon Musk
+            Na Clínica Health, unimos tecnologia de ponta, expertise médica e um olhar humano para transformar sua saúde e autoestima. Cada detalhe foi pensado para oferecer uma experiência <strong>única, personalizada e inesquecível.</strong>
           </p>
 
           {/* Buttons */}
