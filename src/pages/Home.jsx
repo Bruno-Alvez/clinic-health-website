@@ -8,6 +8,7 @@ import Hero from "../components/Hero"
 import PaymentBenefits from "../components/PaymentBenefits";
 import PopularTreatmentsSection from "../components/PopularTreatmentsSection";
 import ProfessionalsSection from "../components/ProfessionalsSection";
+import WhatsappButton from "../components/WhatsappButtom";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <ProfessionalsSection />
       <FaqSection />
       <Footer />
+      <WhatsappButton />
     </>
   );
 }

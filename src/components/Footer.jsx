@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import logo from "../assets/images/logo-black.png"; // substitua pelo caminho correto do seu logo
+import logo from "../assets/images/logo-black.png";
 
 function Footer() {
   return (
@@ -14,17 +14,17 @@ function Footer() {
           />
         </div>
 
-        {/* Links - Endereço */}
+        {/* Adress */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-black">Endereço</h3>
           <ul className="space-y-2 text-sm text-white">
             <li><a href="#" className="hover:text-black">Rua Maria Caetana - 148</a></li>
-            <li><a href="#" className="hover:text-black">Boicucanga</a></li>
+            <li><a href="#" className="hover:text-black">Boiçucanga</a></li>
             <li><a href="#" className="hover:text-black">São Sebastião - SP</a></li>
           </ul>
         </div>
 
-        {/* Links - Especialidades */}
+        {/* Links - Especialits */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-black">Especialidades</h3>
           <ul className="space-y-2 text-sm text-white">
@@ -34,7 +34,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Links - Profissionais */}
+        {/* Links - Professionals */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-black">Profissionais</h3>
           <ul className="space-y-2 text-sm text-white">
@@ -43,7 +43,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Redes sociais + botão */}
+        {/* Social Icons + buttom */}
         <div className="flex flex-col items-center md:items-end gap-4">
           <div className="flex gap-4 text-black text-xl">
             <a href="#" className="hover:text-white transition"><FaTwitter /></a>
@@ -59,7 +59,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Linha final */}
+      {/* End Line */}
       <div className="mt-12 text-center text-sm text-black font-medium">
         © 2025 Clínica Health | Created by Alves Developer. Todos os direitos reservados.
       </div>

@@ -52,7 +52,7 @@ const AboutSection = () => {
           Conheça um pouco <span className="text-[#F27E7E]">sobre nós</span>
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed">
-          A Clínica Health é um centro de saúde de alto padrão focado no cuidado integral e personalizado. Com profissionais renomados, estrutura moderna e um ambiente acolhedor, buscamos oferecer a melhor experiência em bem-estar, prevenção e tratamentos clínicos e estéticos. Nossa missão é transformar a relação entre pacientes e a saúde.
+         A Clínica Health nasceu em outubro de 2023, em Boiçucanga, com o propósito de entregar medicina de qualidade, acessível, com atendimento humano e resultados reais. Somos um casal de médicos que trabalha de forma integrada, oferecendo uma visão multidisciplinar para cada paciente. Enquanto um cuida, o outro acompanha, sempre de olho no todo.
         </p>
       </div>
 
