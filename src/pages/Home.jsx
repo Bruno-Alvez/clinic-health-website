@@ -2,6 +2,7 @@ import AboutSection from "../components/AboutSection";
 import DiferenciaisSection from "../components/ClinicDifferentials";
 import DividerDesign from "../components/DividerDesign";
 import FaqSection from "../components/FaqSection";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero"
 import PaymentBenefits from "../components/PaymentBenefits";
@@ -20,9 +21,7 @@ function Home() {
       <DiferenciaisSection />
       <ProfessionalsSection />
       <FaqSection />
-      <section className="h-screen flex items-center justify-center">
-        <h1 className="text-4xl font-bold">Welcome to Clínica Health</h1>
-      </section>
+      <Footer />
     </>
   );
 }
