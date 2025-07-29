@@ -28,10 +28,10 @@ function DiferenciaisSection() {
       image: img3,
     },
     {
-      title: "Excelência Médica",
-      subtitle: "Equipe Especializada",
+      title: "Tecnologia de Ponta",
+      subtitle: "Ultrassom Atria",
       description:
-        "Profissionais altamente capacitados e atualizados com as inovações mais recentes da medicina clínica e estética.",
+        "Tratamentos com a avançada tecnologia Atria, que utiliza ultrassom microfocado para promover lifting não cirúrgico, rejuvenescimento e estímulo de colágeno com máxima precisão e segurança.",
       image: img4,
     },
   ];
@@ -45,7 +45,7 @@ function DiferenciaisSection() {
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800"
         >
-          Nossos <span className="text-[#F27E7E]">Diferenciais</span>
+          Nossos <span id="diferenciais" className="text-[#F27E7E]">Diferenciais</span>
           <p className="mt-4 font-normal text-gray-600 text-lg max-w-3xl mx-auto">
           Nosso maior diferencial é esse cuidado médico completo, com acompanhamento real, sem promessas vazias, e com um olhar técnico e atualizado. A gente une conhecimento, carinho e tecnologia de ponta.
           </p>

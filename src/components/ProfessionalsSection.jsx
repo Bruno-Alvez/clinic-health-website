@@ -10,7 +10,7 @@ function ProfessionalsSection() {
       description:
         "Especialista em tratamentos dermatológicos de alta performance, com atuação focada em rejuvenescimento, laser e tecnologias de ponta.",
       image: doctor1,
-      link: "/profissionais/camila-fernandes", 
+      link: "/medicos/lara-feres",
     },
     {
       name: "Dr. Rafael Carrasco",
@@ -18,7 +18,7 @@ function ProfessionalsSection() {
       description:
         "Com vasta experiência em saúde preventiva e equilíbrio hormonal, oferece cuidados personalizados com foco em longevidade e qualidade de vida.",
       image: doctor2,
-      link: "/profissionais/rafael-martins", 
+      link: "/medicos/rafael-carrasco",
     },
   ];
 
@@ -50,9 +50,8 @@ function ProfessionalsSection() {
             <img
               src={prof.image}
               alt={prof.name}
-              className="w-40 h-40 object-cover rounded-full border-4 border-[#F27E7E] shadow-md"
+              className="w-40 h-40 object-cover object-top md:object-center rounded-full border-4 border-[#F27E7E] shadow-md"
             />
-
             <div className="text-center md:text-left">
               <h3 className="text-2xl font-bold text-gray-800">{prof.name}</h3>
               <p className="text-[#F27E7E] font-medium text-sm mt-1">

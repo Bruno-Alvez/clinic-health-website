@@ -56,7 +56,7 @@ const AboutSection = () => {
         </p>
       </div>
 
-      <div className="text-center max-w-4xl mx-auto mb-16">
+      <div id="estrutura" className="text-center max-w-4xl mx-auto mb-16">
         <h3 className="text-2xl font-semibold mb-6">
           <span className="text-[#F27E7E]">Compromisso com o que realmente importa</span>
         </h3>
@@ -84,7 +84,7 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="text-center max-w-5xl mx-auto">
+      <div id="estrutura" className="text-center max-w-5xl mx-auto">
         <h3 className="text-2xl font-semibold mb-6">
           <span className="text-[#F27E7E]">Conheça um pouco da nossa estrutura</span>
         </h3>
