@@ -1,31 +1,26 @@
 import React from "react";
-import { FaUserMd, FaVial, FaSyringe, FaMicroscope, FaHeartbeat } from "react-icons/fa";
+import { FaVial, FaSyringe, FaMicroscope, FaMagic, FaLeaf } from "react-icons/fa";
 
 const treatments = [
   {
-    title: "Consultas",
-    description: "a partir de R$99,99",
-    icon: <FaUserMd className="text-3xl text-[#F27E7E]" />,
+    title: "Toxina Botulínica (Botox)",
+    icon: <FaLeaf className="text-4xl text-[#F27E7E]" />,
   },
   {
-    title: "Exames",
-    description: "a partir de R$99,99",
-    icon: <FaMicroscope className="text-3xl text-[#F27E7E]" />,
+    title: "Bioestimuladores de Colágeno",
+    icon: <FaMagic className="text-4xl text-[#F27E7E]" />,
   },
   {
-    title: "Cirurgias",
-    description: "a partir de 10x de R$199,00",
-    icon: <FaSyringe className="text-3xl text-[#F27E7E]" />,
+    title: "Monjaro e Ozempic",
+    icon: <FaSyringe className="text-4xl text-[#F27E7E]" />,
   },
   {
-    title: "Procedimentos",
-    description: "a partir de R$99,99",
-    icon: <FaHeartbeat className="text-3xl text-[#F27E7E]" />,
+    title: "Reposição Hormonal",
+    icon: <FaVial className="text-4xl text-[#F27E7E]" />,
   },
   {
-    title: "Ultrassom",
-    description: "a partir de R$99,99",
-    icon: <FaVial className="text-3xl text-[#F27E7E]" />,
+    title: "Laser e Ultrassom Microfocado",
+    icon: <FaMicroscope className="text-4xl text-[#F27E7E]" />,
   },
 ];
 
@@ -40,7 +35,7 @@ function PopularTreatmentsSection() {
           Conheça os procedimentos mais buscados pelos nossos pacientes. Cuidado personalizado com tecnologia de ponta.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div id="quem-somos"  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {treatments.map((item, index) => (
             <div
               key={index}
@@ -49,9 +44,9 @@ function PopularTreatmentsSection() {
               <div className="mb-4">{item.icon}</div>
               <h3 className="text-lg font-semibold text-[#F27E7E] mb-1">{item.title}</h3>
               <p className="text-sm text-gray-600 mb-4">{item.description}</p>
-              <button className="mt-auto border border-gray-400 text-gray-700 text-sm px-4 py-2 rounded-full hover:bg-[#F27E7E] hover:text-white hover:border-[#F27E7E] transition">
+              <a href="https://wa.me/5512997320935?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20realizar%20agendamento%21" className="mt-auto border border-gray-400 text-gray-700 text-sm px-4 py-2 rounded-full hover:bg-[#F27E7E] hover:text-white hover:border-[#F27E7E] transition">
                 Agendar
-              </button>
+              </a>
             </div>
           ))}
         </div>
