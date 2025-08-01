@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { FaInstagram, FaFacebookF, FaWhatsapp, FaSyringe } from "react-icons/fa";
 import { FiChevronDown, FiChevronRight, FiMenu, FiX } from "react-icons/fi";
 import { MdOutlineHealthAndSafety, MdOutlineFace, MdOutlineScience, MdOutlineMedicalServices, MdContentCut, MdSpa, MdLocalPharmacy } from "react-icons/md";
@@ -67,9 +68,25 @@ const getSpecialtyIcon = (title) => {
 function Header() {
 const [openDropdown, setOpenDropdown] = useState(null);
 const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+const location = useLocation();
+
 const handleDropdown = (title) => {
 setOpenDropdown(openDropdown === title ? null : title);
  };
+
+const handleNavClick = (e, href) => {
+  const sectionId = href.substring(1);
+  
+  if (location.pathname === '/home') {
+    e.preventDefault();
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  // Se não estiver na home, deixa o link fazer seu trabalho normal
+};
+
 return (
 <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
 {/* Top row */}
@@ -119,7 +136,12 @@ onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
 {/* Desktop navigation */}
 <nav className="hidden md:flex justify-center gap-8 py-3 border-t border-[#F2F2F2] bg-white text-sm font-medium text-[#262626]">
 {navLinks.map((link) => (
-<a key={link.title} href={link.href} className="hover:text-[#D99197] transition flex items-center gap-1">
+<a 
+  key={link.title} 
+  href={location.pathname === '/home' ? link.href : `/home${link.href}`}
+  onClick={(e) => handleNavClick(e, link.href)}
+  className="hover:text-[#D99197] transition flex items-center gap-1"
+>
 {link.icon} {link.title}
 </a>
  ))}
@@ -156,7 +178,11 @@ className="block px-4 py-2 text-sm hover:bg-[#F2F2F2] transition"
 {navLinks.map((link) => (
 <div key={link.title} className="flex items-center gap-2">
 {link.icon}
-<a href={link.href} className="text-sm font-medium text-[#262626] hover:text-[#F27E7E]">
+<a 
+  href={location.pathname === '/home' ? link.href : `/home${link.href}`}
+  onClick={(e) => handleNavClick(e, link.href)}
+  className="text-sm font-medium text-[#262626] hover:text-[#F27E7E]"
+>
 {link.title}
 </a>
 </div>
