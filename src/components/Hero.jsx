@@ -28,9 +28,11 @@ function HeroSection() {
           </p>
           {/* Buttons */}
           <div className="mt-8 flex flex-wrap gap-4">
-            <button className="bg-[#F27E7E] text-black font-semibold py-3 px-6 rounded-full flex items-center gap-2 shadow-md hover:bg-white/75 transition">
-              <FaCalendarAlt className="text-sm" href="https://wa.me/5512997320935?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20realizar%20agendamento%21"/> Agende sua consulta
+            <a href="https://wa.me/5512997320935?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20realizar%20agendamento%21">
+              <button className="bg-[#F27E7E] text-black font-semibold py-3 px-6 rounded-full flex items-center gap-2 shadow-md hover:bg-white/75 transition">
+              <FaCalendarAlt className="text-sm"/> Agende sua consulta
             </button>
+            </a>
           </div>
         </motion.div>
       </div>

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import doctor1 from "../assets/images/dr-lara.jpeg";
 import doctor2 from "../assets/images/dr-rafael.png";
+import { link } from "framer-motion/client";
 
 function ProfessionalsSection() {
   const professionals = [
@@ -8,7 +9,7 @@ function ProfessionalsSection() {
       name: "Dra. Lara Feres",
       specialty: "Dermatologia Avançada",
       description:
-        "Especialista em tratamentos dermatológicos de alta performance, com atuação focada em rejuvenescimento, laser e tecnologias de ponta.",
+        "Focada em tratamentos dermatológicos de alta performance, com atuação voltada pro rejuvenescimento, laser e tecnologias de ponta.",
       image: doctor1,
       link: "/medicos/lara-feres",
     },
@@ -16,7 +17,7 @@ function ProfessionalsSection() {
       name: "Dr. Rafael Carrasco",
       specialty: "Medicina Clínica e Hormonal",
       description:
-        "Com vasta experiência em saúde preventiva e equilíbrio hormonal, oferece cuidados personalizados com foco em longevidade e qualidade de vida.",
+        "Com experiência em saúde preventiva e equilíbrio hormonal, oferece cuidados personalizados com foco em emagrecimento e qualidade de vida.",
       image: doctor2,
       link: "/medicos/rafael-carrasco",
     },
