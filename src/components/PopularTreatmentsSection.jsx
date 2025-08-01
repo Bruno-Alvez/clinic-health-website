@@ -11,7 +11,7 @@ const treatments = [
     icon: <FaMagic className="text-4xl text-[#F27E7E]" />,
   },
   {
-    title: "Monjaro e Ozempic",
+    title: "Mounjaro e Ozempic",
     icon: <FaSyringe className="text-4xl text-[#F27E7E]" />,
   },
   {
