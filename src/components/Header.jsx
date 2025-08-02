@@ -38,7 +38,7 @@ Tricologia: [
  { title: "Biópsia do couro cabeludo", href: "/especialidades/tricologia/" },
  { title: "Tratamento clínico para alopecia e inflamações do couro cabeludo", href: "/especialidades/tricologia/" },
  ],
-"Medicina Preventiva, Endocrinologia, Emagrecimento e Performance": [
+"Medicina Clínica e Hormonal": [
  { title: "SOP (Síndrome dos Ovários Policísticos)", href: "/especialidades/medicina-clinica-hormonal/" },
  { title: "Emagrecimento, Obesidade e Resistência Insulínica", href: "/especialidades/medicina-clinica-hormonal/" },
  { title: "Climatério e Pós-Menopausa", href: "/especialidades/medicina-clinica-hormonal/" },
