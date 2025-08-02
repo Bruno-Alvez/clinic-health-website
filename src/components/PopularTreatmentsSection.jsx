@@ -11,7 +11,7 @@ const treatments = [
     icon: <FaMagic className="text-4xl text-[#F27E7E]" />,
   },
   {
-    title: "Mounjaro e Ozempic",
+    title: "Protocolos de Emagrecimento com Ozempic e Mounjaro",
     icon: <FaSyringe className="text-4xl text-[#F27E7E]" />,
   },
   {

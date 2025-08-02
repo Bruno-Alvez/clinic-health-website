@@ -38,17 +38,17 @@ Tricologia: [
  { title: "Biópsia do couro cabeludo", href: "/especialidades/tricologia/" },
  { title: "Tratamento clínico para alopecia e inflamações do couro cabeludo", href: "/especialidades/tricologia/" },
  ],
-"Medicina Clínica e Hormonal": [
- { title: "SOP", href: "/especialidades/medicina-clinica-hormonal/" },
- { title: "Pós-menopausa e climatério", href: "/especialidades/medicina-clinica-hormonal/" },
- { title: "Obesidade, emagrecimento e resistência insulínica", href: "/especialidades/medicina-clinica-hormonal/" },
+"Medicina Preventiva, Endocrinologia, Emagrecimento e Performance": [
+ { title: "SOP (Síndrome dos Ovários Policísticos)", href: "/especialidades/medicina-clinica-hormonal/" },
+ { title: "Emagrecimento, Obesidade e Resistência Insulínica", href: "/especialidades/medicina-clinica-hormonal/" },
+ { title: "Climatério e Pós-Menopausa", href: "/especialidades/medicina-clinica-hormonal/" },
  { title: "Performance esportiva", href: "/especialidades/medicina-clinica-hormonal/" },
  { title: "Lipedema", href: "/especialidades/medicina-clinica-hormonal/" },
  { title: "Reposição hormonal", href: "/especialidades/medicina-clinica-hormonal/" },
- { title: "Tratamento clínico e hormonal Tireodiano", href: "/especialidades/medicina-clinica-hormonal/" },
- { title: "Aplicações subcutâneas como Ozempic e Mounjaro", href: "/especialidades/medicina-clinica-hormonal/" },
- { title: "Reposição de Vitamina D e complexo B injetável", href: "/especialidades/medicina-clinica-hormonal/" },
- { title: "Implanon", href: "/especialidades/medicina-clinica-hormonal/" },
+ { title: "Tireoide e Equilíbrio Hormonal", href: "/especialidades/medicina-clinica-hormonal/" },
+ { title: "Protocolos de Emagrecimento com Semaglutida (Ozempic®️) e a Tirzepatida (Mounjaro®️)", href: "/especialidades/medicina-clinica-hormonal/" },
+ { title: "Suplementação Injetável: Vitamina D e Complexo B", href: "/especialidades/medicina-clinica-hormonal/" },
+ { title: "Implanon®️", href: "/especialidades/medicina-clinica-hormonal/" },
  ],
 };
 

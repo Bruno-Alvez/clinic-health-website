@@ -107,50 +107,50 @@ export const specialties = [
   },
   {
     slug: "medicina-clinica-hormonal",
-    name: "Medicina Clínica e Hormonal",
+    name: "Medicina Preventiva, Endocrinologia, Emagrecimento e Performance",
     description:
-      "A Medicina Clínica e Hormonal da Clínica Health oferece uma abordagem integrativa e personalizada para o equilíbrio hormonal e bem-estar geral. Nossa especialidade combina medicina preventiva, tratamentos hormonais avançados e acompanhamento clínico especializado para otimizar sua saúde e qualidade de vida em todas as fases da vida.",
+      "Na Clínica Health, oferecemos um cuidado médico completo e personalizado, com foco em prevenir doenças, restaurar o equilíbrio hormonal, promover o emagrecimento saudável e potencializar a performance física. Sob a supervisão do Dr. Rafael Ferreira Carrasco (CRM-SP 193.321), médico com sólida formação em nutrologia, endocrinologia e saúde esportiva, cada tratamento é desenhado com base em exames, evidências científicas e nas metas individuais de cada paciente.\n\nSeja para emagrecer, tratar disfunções hormonais, melhorar a qualidade de vida ou atingir o máximo desempenho físico, aqui você encontra protocolos modernos, seguros e com acompanhamento contínuo.\n\nEmagrecimento, Obesidade e Resistência Insulínica\n\nProtocolos médicos completos para perda de peso eficaz, segura e duradoura. O foco está na correção da resistência insulínica, modulação do metabolismo e controle do apetite. Utilizamos medicações modernas como a Semaglutida (Ozempic®️) e a Tirzepatida (Mounjaro®️), aliadas a ajustes hormonais e acompanhamento nutricional individualizado.",
     image: medic,
     treatments: [
       {
         title: "SOP (Síndrome dos Ovários Policísticos)",
-        description: "Tratamento integral da SOP com abordagem hormonal, nutricional e medicamentosa para regular ciclos menstruais e melhorar a qualidade de vida.",
+        description: "Tratamento integrado da SOP com foco na regularização dos ciclos menstruais, controle da resistência insulínica, redução de sintomas como acne e oleosidade e melhora da fertilidade. A abordagem inclui modulação hormonal, ajustes nutricionais e suporte medicamentoso, conforme o perfil de cada paciente",
       },
       {
         title: "Pós-menopausa e Climatério",
-        description: "Acompanhamento especializado durante a transição hormonal feminina com protocolos personalizados para alívio de sintomas e prevenção de complicações.",
+        description: "Acompanhamento clínico e hormonal durante a transição da menopausa. Utilizamos protocolos com reposição hormonal, quando indicada, e estratégias complementares para aliviar sintomas como ondas de calor, insônia, irritabilidade e perda de libido, com foco em longevidade, prevenção e vitalidade feminina",
       },
       {
         title: "Obesidade, Emagrecimento e Resistência Insulínica",
-        description: "Protocolos médicos para controle de peso e metabolismo, incluindo tratamento da resistência insulínica com acompanhamento nutricional especializado.",
+        description: "Protocolos médicos completos para perda de peso eficaz, segura e duradoura. O foco está na correção da resistência insulínica, modulação do metabolismo e controle do apetite. Utilizamos medicações modernas como a Semaglutida (Ozempic®️) e a Tirzepatida (Mounjaro®️), aliadas a ajustes hormonais e acompanhamento nutricional individualizado.",
       },
       {
         title: "Performance Esportiva",
-        description: "Otimização hormonal e nutricional para atletas e praticantes de atividade física, focando em performance, recuperação e prevenção de lesões.",
+        description: "Avaliação e otimização hormonal e nutricional para atletas e praticantes de atividade física. Protocolos personalizados para ganho de massa muscular, melhora da recuperação, aumento da energia e prevenção de lesões. Sempre com foco em performance, saúde e longevidade esportiva.",
       },
       {
         title: "Lipedema",
-        description: "Diagnóstico e tratamento especializado do lipedema com abordagem multidisciplinar incluindo terapias hormonais e protocolos anti-inflamatórios.",
+        description: "Abordagem clínica moderna e multidisciplinar para diagnóstico e tratamento do lipedema. O protocolo inclui modulação hormonal, controle inflamatório, suporte nutricional e orientações sobre terapias físicas, com o objetivo de aliviar dor, reduzir edema e melhorar funcionalidade e autoestima.",
       },
       {
         title: "Reposição Hormonal",
-        description: "Terapias de reposição hormonal bioidêntica personalizada para homens e mulheres, com monitoramento rigoroso e ajustes individualizados.",
+        description: "Terapias hormonais personalizadas para homens e mulheres, indicadas para repor deficiências hormonais com segurança e eficácia. O foco está no bem-estar, libido, cognição, disposição e prevenção de doenças associadas ao envelhecimento hormonal, sempre com monitoramento rigoroso.",
       },
       {
         title: "Tratamento Clínico e Hormonal Tireoidiano",
-        description: "Manejo completo de disfunções tireoidianas incluindo hipotireoidismo, hipertireoidismo e otimização da função tireoidiana.",
+        description: "Tratamento completo das disfunções tireoidianas, incluindo hipotireoidismo, hipertireoidismo e tireoidite de Hashimoto, com foco em sintomatologia, metabolismo, energia e qualidade de vida. Avaliação clínica além dos exames laboratoriais convencionais",
       },
       {
-        title: "Aplicações Subcutâneas como Ozempic e Mounjaro",
-        description: "Administração e acompanhamento de medicamentos injetáveis para diabetes tipo 2 e controle de peso, com monitoramento médico especializado.",
+        title: "Protocolos de Emagrecimento com Semaglutida (Ozempic®️) e a Tirzepatida (Mounjaro®️)",
+        description: "Utilização de análogos de GLP-1 como parte de protocolos personalizados para emagrecimento, controle da resistência insulínica e melhora do metabolismo. O tratamento é feito com acompanhamento médico contínuo, ajuste de doses, monitoramento de efeitos colaterais e alinhamento com plano alimentar e estratégias hormonais.",
       },
       {
-        title: "Reposição de Vitamina D e Complexo B Injetável",
-        description: "Suplementação injetável de vitaminas essenciais para otimização do sistema imunológico, energia e bem-estar geral.",
+        title: "Suplementação Injetável: Vitamina D e Complexo B",
+        description: "Reposição rápida e eficaz de nutrientes essenciais como Vitamina D, Vitamina B12 e outros componentes do complexo B. Indicada para melhorar imunidade, disposição, foco mental, recuperação muscular e bem-estar geral, especialmente em casos de deficiência comprovada",
       },
       {
-        title: "Implanon",
-        description: "Inserção e acompanhamento do implante contraceptivo subdérmico com orientação completa sobre benefícios e cuidados necessários.",
+        title: "Implanon®️",
+        description: "Inserção e acompanhamento do implante contraceptivo subdérmico, com orientação médica completa sobre funcionamento, efeitos colaterais, duração do método e possíveis ajustes durante o uso. Avaliação individualizada de indicação conforme perfil hormonal e estilo de vida",
       },
     ],
   },
